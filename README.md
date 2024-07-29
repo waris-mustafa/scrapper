@@ -47,7 +47,7 @@ This project is a Django application. It includes the following features:
 
 ## Deployement
 
-1. Deployemnt Tactics
+1. Deployment Tactics
     ```bash
-    Deployment steps will be added later. Will be done on Heroku. 
+    Deployment steps will be added later for Heroku. 
     ```
