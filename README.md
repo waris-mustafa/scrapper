@@ -21,12 +21,17 @@ This project is a Django application. It includes the following features:
     poetry install
     ```
 
-3. Apply the migrations:
+3. Activate the Poetry shell:
+   ```bash
+    poetry shell
+   ```
+
+4. Apply the migrations:
     ```bash
     poetry run python manage.py migrate
     ```
 
-4. Run the development server:
+5. Run the development server:
     ```bash
     poetry run python manage.py runserver
     ```
@@ -39,3 +44,8 @@ This project is a Django application. It includes the following features:
     ```
 
 2. Open your web browser and go to `http://127.0.0.1:8000/`.
+
+## Deployement
+    ```bash
+    Deployment steps will be added later. Will be done on Heroku. 
+    ```
