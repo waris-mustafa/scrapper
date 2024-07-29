@@ -1,6 +1,6 @@
-# Django Project
+# Scrapper
 
-This is a Django application that works on the basic authentication of a user and allowing him/her to be able to scrape a website for emails.
+Scrapper is a Django application that works on the basic authentication of a user and allowing him/her to be able to scrape a website for emails.
 
 ## Description
 
