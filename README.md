@@ -46,6 +46,8 @@ This project is a Django application. It includes the following features:
 2. Open your web browser and go to `http://127.0.0.1:8000/`.
 
 ## Deployement
+
+1. Deployemnt Tactics
     ```bash
     Deployment steps will be added later. Will be done on Heroku. 
     ```
