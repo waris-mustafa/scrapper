@@ -19,6 +19,11 @@ redis = "^5.0.7"
 celery = "^5.4.0"
 django-celery-results = "^2.5.1"
 channels-redis = "^4.2.0"
+psycopg2-binary = "^2.9.9"
+dj-database-url = "^2.2.0"
+whitenoise = "^6.7.0"
+gunicorn = "^22.0.0"
+uvicorn = "^0.30.3"
 
 
 [build-system]

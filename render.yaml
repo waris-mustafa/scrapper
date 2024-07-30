@@ -1,0 +1,22 @@
+databases:
+  - name: scrapper
+    plan: free
+    databaseName: scrapper_db
+    user: admin
+
+services:
+  - type: web
+    plan: free
+    name: scrapper
+    runtime: python
+    buildCommand: "./build.sh"
+    startCommand: "python -m gunicorn mysite.asgi:application -k uvicorn.workers.UvicornWorker"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: scrapper_db
+          property: connectionString
+      - key: django-insecure-t1a=11t6*!)yie74oty4n@^3+j!f=lwri5&5x91qi^pm@5f&g!
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4
